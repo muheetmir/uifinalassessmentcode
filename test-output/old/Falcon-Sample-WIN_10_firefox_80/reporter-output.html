@@ -1,0 +1,34 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable sample is: sample</td></tr>
+<tr><td>The value found with Environment variable WIN_10_firefox_80 is: WIN_10_firefox_80</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [sample]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_10_firefox_80</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_firefox_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.FalconUI.testscript.GmailLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_firefox_80 -->
+</td></tr>
+<tr><td>Opening browser: firefox</td></tr>
+<tr><td>Maximizing browser window</td></tr>
+<tr><td>calling the page objects method for gmail login</td></tr>
+<tr><td>No such element found with xpathUnable to locate element: //ul[@class='h-c-header__cta-list header__nav--ltr']//a[contains(@class,'h-c-header__nav-li-link')][contains(text(),'Sign in')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '55.55.55.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mir.ali\AppData\Local\Temp\rust_mozprofileB3T0Hi, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=WINDOWS, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=74.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=15232, browserName=firefox, moz:buildID=20200309095159, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 43551f0f-3450-48cc-88e9-88e0bd14adb8
+*** Element info: {Using=xpath, value=//ul[@class='h-c-header__cta-list header__nav--ltr']//a[contains(@class,'h-c-header__nav-li-link')][contains(text(),'Sign in')]}</td></tr>
+</table>

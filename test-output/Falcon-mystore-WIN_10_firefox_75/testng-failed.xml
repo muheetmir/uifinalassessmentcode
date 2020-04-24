@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-mystore-WIN_10_firefox_75]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="75"/>
+  <test name="Testcase for placing Order from mystore app(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp">
+        <methods>
+          <include name="verifyProductDetailsOnPaymentPage"/>
+          <include name="verifyOrderDetails"/>
+          <include name="verifyCheckout"/>
+          <include name="preSetup"/>
+          <include name="signOutApp"/>
+          <include name="verifyAddressDetailsOnAddresssPage"/>
+          <include name="verifyProductDetailsOnShoppingCartSummary"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp -->
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app(failed) -->
+</suite> <!-- Failed suite [Falcon-mystore-WIN_10_firefox_75] -->

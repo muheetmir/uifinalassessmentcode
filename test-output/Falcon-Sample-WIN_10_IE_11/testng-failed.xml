@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-sample-WIN_10_IE_11]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="Testcase for placing Order from mystore app(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_003_AddEveningDress">
+        <methods>
+          <include name="verifyAddEveningDressToCart"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_003_AddEveningDress -->
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_004_AddSummerDress">
+        <methods>
+          <include name="verifyAddSummerDressToCart"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_004_AddSummerDress -->
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_002_AddCasualDress">
+        <methods>
+          <include name="signOutApp"/>
+          <include name="preSetup"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_002_AddCasualDress -->
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app(failed) -->
+</suite> <!-- Failed suite [Falcon-sample-WIN_10_IE_11] -->

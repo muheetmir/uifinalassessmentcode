@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 09 13:00:45 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>347 seconds (347192 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.addToCart()'><b>addToCart</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-404789554" onClick='toggleBox("Output-404789554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-404789554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-404789554">
+Adding item into cart<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on everning dresses category<br/>
+selecting the product from everning dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on summer dresses category<br/>
+selecting the product from summary dresses category <br/>
+updating the item size<br/>
+click on add to cart button<br/>
+</div>
+</td>
+<td></td>
+<td>184</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@3c52b4f0</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.confirmOrder()'><b>confirmOrder</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-958245346" onClick='toggleBox("Output-958245346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-958245346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-958245346">
+clicking on the pay by check link<br/>
+clicking on the confirm order button<br/>
+PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@3c52b4f0</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.performCheckout()'><b>performCheckout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-323773979" onClick='toggleBox("Output-323773979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-323773979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-323773979">
+click on proceed to checkout button<br/>
+clicking on proceed to checkout button on summary page<br/>
+click on proceed to checkout button on address page<br/>
+Accept the terms and conditions<br/>
+click on checkout button<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@3c52b4f0</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signIntoMyStore()'><b>signIntoMyStore</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br>Parameters: WIN, 10, chrome, 57<br/>
+<a href="#Output-1449843686" onClick='toggleBox("Output-1449843686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1449843686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1449843686">
+Opening browser: chrome<br/>
+Maximizing browser window<br/>
+PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store<br/>
+clicking on sign in link<br/>
+enter the user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+sign  in button is clicked<br/>
+PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation<br/>
+</div>
+</td>
+<td></td>
+<td>111</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@3c52b4f0</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1386574661" onClick='toggleBox("Output-1386574661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1386574661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1386574661">
+click on user name link<br/>
+clicking on sign in link<br/>
+clicked on reference link<br/>
+Product details of order has been verified<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@3c52b4f0</td></tr>
+</table><p>
+</body>
+</html>

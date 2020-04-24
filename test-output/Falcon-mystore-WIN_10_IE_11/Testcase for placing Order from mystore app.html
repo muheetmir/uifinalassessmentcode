@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>TestNG:  Testcase for placing Order from mystore app</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testcase for placing Order from mystore app</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 23 13:21:12 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>309 seconds (309595 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.performSignIntoMystore()'><b>performSignIntoMystore</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br>Parameters: testapple063@gmail.com, product3109!<br/>
+<a href="#Output-1773748662" onClick='toggleBox("Output-1773748662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1773748662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1773748662">
+clicking on sign in link<br/>
+enter the user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyAddressDetailsOnAddresssPage()'><b>verifyAddressDetailsOnAddresssPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br>Parameters: Florida, California 36264, 7541334455<br/>
+<a href="#Output-8143393" onClick='toggleBox("Output-8143393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8143393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8143393">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+click on add to cart button<br/>
+click on proceed to checkout button<br/>
+PASS : Verifying address on address page : ACTUAL : Florida, California 36264 	EXPECTED :Florida, California 36264<br/>
+PASS : Verfying the customer contact number on addresses page : ACTUAL : 7541334455 	EXPECTED :7541334455<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyCheckout()'><b>verifyCheckout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-866781516" onClick='toggleBox("Output-866781516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866781516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866781516">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on everning dresses category<br/>
+selecting the product from everning dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on summer dresses category<br/>
+PASS : Verifing Summer dress title : ACTUAL : Summer Dresses - My Store 	EXPECTED :Summer Dresses - My Store<br/>
+selecting the product from summary dresses category <br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on proceed to checkout button<br/>
+Addresses heading verified<br/>
+click on proceed to checkout button on address page<br/>
+PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING<br/>
+Accept the terms and conditions<br/>
+click on checkout button<br/>
+clicking on the pay by check link<br/>
+clicking on the confirm order button<br/>
+PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-1113465164" onClick='toggleBox("Output-1113465164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113465164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113465164">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+click on user name link<br/>
+clicking on sign in link<br/>
+clicked on reference link<br/>
+product modle name verified<br/>
+product quantity verified<br/>
+product price verified<br/>
+the product detail has been verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyProductDetailsAndCartTextOnAddToCartPage()'><b>verifyProductDetailsAndCartTextOnAddToCartPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br>Parameters: demo_3, $26.00, 2<br/>
+<a href="#Output-1489965659" onClick='toggleBox("Output-1489965659", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1489965659" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1489965659">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+PASS : Verifying product model name on Product details page : ACTUAL : demo_3 	EXPECTED :demo_3<br/>
+PASS : Verifying the product price on product details page  : ACTUAL : $26.00 	EXPECTED :$26.00<br/>
+updating the item quantity<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+PASS : verifying number of products added to cart : ACTUAL : 2 	EXPECTED :2<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyProductDetailsOnPaymentPage()'><b>verifyProductDetailsOnPaymentPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-568056431" onClick='toggleBox("Output-568056431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-568056431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-568056431">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on everning dresses category<br/>
+selecting the product from everning dress category<br/>
+click on add to cart button<br/>
+click on proceed to checkout button<br/>
+Addresses heading verified<br/>
+click on proceed to checkout button on address page<br/>
+PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING<br/>
+Accept the terms and conditions<br/>
+click on checkout button<br/>
+product name verified<br/>
+unit  price has been verified<br/>
+Quantity has been verified<br/>
+PASS : Verifying the total price on payment page : ACTUAL : $78.99 	EXPECTED :$78.99<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp.verifyProductDetailsOnShoppingCartSummary()'><b>verifyProductDetailsOnShoppingCartSummary</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-729659136" onClick='toggleBox("Output-729659136", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-729659136" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-729659136">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+click on add to cart button<br/>
+click on proceed to checkout button<br/>
+product name verified<br/>
+product unit price verified<br/>
+product total price verified<br/>
+PASS : verifying the total price on shopping cart summry : ACTUAL : $28.00 	EXPECTED :$28.00<br/>
+Shopping cart details have been verified<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp@2120b7fb</td></tr>
+</table><p>
+</body>
+</html>

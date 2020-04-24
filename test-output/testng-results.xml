@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable mystore is: mystore]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_IE_10 is: WIN_10_IE_10]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [mystore]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-mystore-WIN_10_IE_10]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-mystore-WIN_10_IE_10">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="10"/>
+  <test name="Testcase for placing Order from mystore app">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp"/>
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app -->
+</suite> <!-- Falcon-mystore-WIN_10_IE_10 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the application title : ACTUAL : My Store 	EXPECTED :My Store]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[click on user name link]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[clicked on reference link]]>
+    </line>
+    <line>
+      <![CDATA[product model name verified on order details]]>
+    </line>
+    <line>
+      <![CDATA[product quantity verified on order details]]>
+    </line>
+    <line>
+      <![CDATA[product price verified on order details]]>
+    </line>
+    <line>
+      <![CDATA[the product detail has been verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-mystore-WIN_10_IE_10" duration-ms="39075" started-at="2020-04-24T06:36:51Z" finished-at="2020-04-24T06:37:31Z">
+    <groups>
+    </groups>
+    <test name="Testcase for placing Order from mystore app" duration-ms="39075" started-at="2020-04-24T06:36:51Z" finished-at="2020-04-24T06:37:31Z">
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="preSetup" is-config="true" duration-ms="31" started-at="2020-04-24T12:06:51Z" finished-at="2020-04-24T12:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="launchApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="launchApplication" is-config="true" duration-ms="11300" started-at="2020-04-24T12:06:51Z" finished-at="2020-04-24T12:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS : Verifying the application title : ACTUAL : My Store 	EXPECTED :My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="verifyOrderDetails()[pri:7, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="verifyOrderDetails" duration-ms="22372" started-at="2020-04-24T12:07:03Z" finished-at="2020-04-24T12:07:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[click on user name link]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[clicked on reference link]]>
+            </line>
+            <line>
+              <![CDATA[product model name verified on order details]]>
+            </line>
+            <line>
+              <![CDATA[product quantity verified on order details]]>
+            </line>
+            <line>
+              <![CDATA[product price verified on order details]]>
+            </line>
+            <line>
+              <![CDATA[the product detail has been verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrderDetails -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="signOutApp" is-config="true" duration-ms="5379" started-at="2020-04-24T12:07:25Z" finished-at="2020-04-24T12:07:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="teardown" is-config="true" duration-ms="675" started-at="2020-04-24T12:07:31Z" finished-at="2020-04-24T12:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp -->
+    </test> <!-- Testcase for placing Order from mystore app -->
+  </suite> <!-- Falcon-mystore-WIN_10_IE_10 -->
+</testng-results>

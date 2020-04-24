@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 09 20:37:52 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>163345 seconds (163345143 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.addToCart()'><b>addToCart</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-111907539" onClick='toggleBox("Output-111907539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111907539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111907539">
+Adding item into cart<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+click on dresses<br/>
+click on everning dresses category<br/>
+No such element found with xpathUnable to find element with xpath == //a[@class='subcategory-name'][contains(text(),'Evening')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:45111/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fe96d124-22db-48de-b2a1-92b5732540e7
+*** Element info: {Using=xpath, value=//a[@class='subcategory-name'][contains(text(),'Evening')]}<br/>
+selecting the product from everning dress category<br/>
+</div>
+</td>
+<td></td>
+<td>94526</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@23d6c1c5</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.confirmOrder()'><b>confirmOrder</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-2054031438" onClick='toggleBox("Output-2054031438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2054031438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2054031438">
+clicking on the pay by check link<br/>
+No such element found with xpathUnable to find element with xpath == //a[@class='cheque']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:45111/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fe96d124-22db-48de-b2a1-92b5732540e7
+*** Element info: {Using=xpath, value=//a[@class='cheque']}<br/>
+</div>
+</td>
+<td></td>
+<td>49913</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@23d6c1c5</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.performCheckout()'><b>performCheckout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-1799998818" onClick='toggleBox("Output-1799998818", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1799998818" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1799998818">
+click on proceed to checkout button<br/>
+clicking on proceed to checkout button on summary page<br/>
+No such element found with xpathUnable to find element with xpath == //a[@title='Proceed to checkout' and contains(@class,'standard')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:45111/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fe96d124-22db-48de-b2a1-92b5732540e7
+*** Element info: {Using=xpath, value=//a[@title='Proceed to checkout' and contains(@class,'standard')]}<br/>
+</div>
+</td>
+<td></td>
+<td>14820</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@23d6c1c5</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.signIntoMyStore()'><b>signIntoMyStore</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br>Parameters: WIN, 10, IE, 11<br/>
+<a href="#Output-135818429" onClick='toggleBox("Output-135818429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-135818429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-135818429">
+Opening browser: IE<br/>
+Maximizing browser window<br/>
+PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store<br/>
+clicking on sign in link<br/>
+enter the user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+sign  in button is clicked<br/>
+PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@23d6c1c5</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.MyStoreOrder.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.qa.automation.mystoreapplication.testscript.MyStoreOrder<br/>
+<a href="#Output-192852361" onClick='toggleBox("Output-192852361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-192852361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-192852361">
+click on user name link<br/>
+clicking on sign in link<br/>
+clicked on reference link<br/>
+first product has been verified<br/>
+No such element found with xpathUnable to find element with xpath == //label[contains(text(),'Printed Dress - Color : Beige, Size : S')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:45111/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fe96d124-22db-48de-b2a1-92b5732540e7
+*** Element info: {Using=xpath, value=//label[contains(text(),'Printed Dress - Color : Beige, Size : S')]}<br/>
+second product has been verified<br/>
+No such element found with xpathUnable to find element with xpath == //label[contains(text(),'Printed Chiffon Dress - Color : Yellow, Size : S')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:45111/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fe96d124-22db-48de-b2a1-92b5732540e7
+*** Element info: {Using=xpath, value=//label[contains(text(),'Printed Chiffon Dress - Color : Yellow, Size : S')]}<br/>
+third product has been verified<br/>
+</div>
+</td>
+<td></td>
+<td>4038</td>
+<td>com.qa.automation.mystoreapplication.testscript.MyStoreOrder@23d6c1c5</td></tr>
+</table><p>
+</body>
+</html>

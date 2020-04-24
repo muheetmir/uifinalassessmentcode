@@ -1,0 +1,55 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable sample is: sample</td></tr>
+<tr><td>The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [sample]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-sample-WIN_10_IE_11</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="Testcase for placing Order from mystore app">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_002_AddCasualDress"/>
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app -->
+</suite> <!-- Falcon-sample-WIN_10_IE_11 -->
+</td></tr>
+<tr><td>PASS : Verifying the application title : ACTUAL : My Store 	EXPECTED :My Store</td></tr>
+<tr><td>clicking on sign in link</td></tr>
+<tr><td>Enter user name</td></tr>
+<tr><td>enter the password</td></tr>
+<tr><td>click on sign in button</td></tr>
+<tr><td>FAIL : Verify my account page title expected [My account - My Store ] but found [My account - My Store]: ACTUAL : My account - My Store 	EXPECTED :My account - My Store </td></tr>
+<tr><td>Click on dresses</td></tr>
+<tr><td>click on casual dresses category</td></tr>
+<tr><td>selecting the product from casual dress category</td></tr>
+<tr><td>click on add to cart button</td></tr>
+<tr><td>click on continue shopping button</td></tr>
+<tr><td>No such element found by IdUnable to find element with css selector == #\/\/div\[\@class\=\'shopping_cart\'\]\/\/span\[contains\(\@class\,\'cart_quantity\'\)\]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:25678/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 21f08c44-7d39-43b4-b9f2-14e62cf630ac
+*** Element info: {Using=id, value=//div[@class='shopping_cart']//span[contains(@class,'cart_quantity')]}</td></tr>
+<tr><td>Unexpected exception occur: Unable to get browser
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:25678/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 21f08c44-7d39-43b4-b9f2-14e62cf630ac</td></tr>
+<tr><td>Unexpected exception occur: Unable to get browser
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.edgepath=, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, nativeEvents=true, ie.edgechromium=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:25678/, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, browserName=internet explorer, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 21f08c44-7d39-43b4-b9f2-14e62cf630ac</td></tr>
+<tr><td>click on sign out</td></tr>
+</table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_10_Edge_42]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder">
+        <methods>
+          <include name="verifyOrderDetails"/>
+          <include name="preSetup"/>
+          <include name="signout"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.MyStoreOrder -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_Edge_42] -->

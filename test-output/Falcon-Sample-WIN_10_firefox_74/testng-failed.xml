@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-sample-WIN_10_Firefox_74]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="Testcase for placing Order from mystore app(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_003_Checkout_ConfirmOrder">
+        <methods>
+          <include name="signOutApp"/>
+          <include name="verifyCheckout"/>
+          <include name="preSetup"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_003_Checkout_ConfirmOrder -->
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app(failed) -->
+</suite> <!-- Failed suite [Falcon-sample-WIN_10_Firefox_74] -->

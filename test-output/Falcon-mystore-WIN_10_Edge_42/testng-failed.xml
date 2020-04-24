@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-mystore-WIN_10_Edge_42]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="Testcase for placing Order from mystore app(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_001_PlacingOrderFromMyStoreApplication">
+        <methods>
+          <include name="init"/>
+          <include name="preSetup"/>
+          <include name="verifyAddEveningDressToCart"/>
+          <include name="verifyCheckout"/>
+          <include name="signOutApp"/>
+          <include name="verifyOrderDetails"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_001_PlacingOrderFromMyStoreApplication -->
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app(failed) -->
+</suite> <!-- Failed suite [Falcon-mystore-WIN_10_Edge_42] -->

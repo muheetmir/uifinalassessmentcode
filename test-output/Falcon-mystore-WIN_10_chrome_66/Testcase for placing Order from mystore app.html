@@ -1,0 +1,501 @@
+<html>
+<head>
+<title>TestNG:  Testcase for placing Order from mystore app</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testcase for placing Order from mystore app</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 23 23:56:23 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>928 seconds (928281 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.signOutApp()'><b>signOutApp</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-1661983376" onClick='toggleBox("Output-1661983376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661983376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661983376">
+click on sign out<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//a[@class='logout']}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.43.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:672)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:668)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.qa.automation.mystoreapplication.utilities.MyStoreUtility.waitForElementToBeClickable(MyStoreUtility.java:68)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickSignOut(HomePage.java:55)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.signOutApp(TC_000111_PlacingOrderFromMyStoreApp.java:223)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1661983376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1661983376'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ATMECSINLT-269&apos;, ip: &apos;192.168.43.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:672)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:668)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.qa.automation.mystoreapplication.utilities.MyStoreUtility.waitForElementToBeClickable(MyStoreUtility.java:68)
+	at com.qa.automation.mystoreapplication.pages.HomePage.clickSignOut(HomePage.java:55)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.signOutApp(TC_000111_PlacingOrderFromMyStoreApp.java:223)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.signOutApp()'><b>signOutApp</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp</td>
+<td></td>
+<td>0</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.signOutApp()'><b>signOutApp</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp</td>
+<td></td>
+<td>0</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyAddressDetailsOnAddresssPage()'><b>verifyAddressDetailsOnAddresssPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-7451423" onClick='toggleBox("Output-7451423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7451423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7451423">
+clicking on sign in link<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='login']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//a[@class='login']}<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='login']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//a[@class='login']}<br/>
+Enter user name<br/>
+No such element found by Idno such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=id, value=email}<br/>
+No such element found by Idno such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=id, value=email}<br/>
+enter the password<br/>
+No such element found by Idno such element: Unable to locate element: {"method":"css selector","selector":"#passwd"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=id, value=passwd}<br/>
+click on sign in button<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}<br/>
+FAIL : Verify my account page title expected [My account - My Store] but found [Order - My Store]: ACTUAL : Order - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='subcategory-name'][contains(text(),'Casual')]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//a[@class='subcategory-name'][contains(text(),'Casual')]}<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='subcategory-name'][contains(text(),'Casual')]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//a[@class='subcategory-name'][contains(text(),'Casual')]}<br/>
+FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details<br/>
+Unknown error cannot upload screenshot to server : Connection refused: connect<br/>
+Unknown error cannot upload screenshot to server : Connection refused: connect<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [My account - My Store] but found [Order - My Store]
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:228)
+	at com.qa.automation.mystoreapplication.pages.HomePage.verifyMyAccountPageTitle(HomePage.java:71)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyAddressDetailsOnAddresssPage(TC_000111_PlacingOrderFromMyStoreApp.java:99)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7451423", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7451423'><pre>java.lang.AssertionError: expected [My account - My Store] but found [Order - My Store]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:228)
+	at com.qa.automation.mystoreapplication.pages.HomePage.verifyMyAccountPageTitle(HomePage.java:71)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyAddressDetailsOnAddresssPage(TC_000111_PlacingOrderFromMyStoreApp.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>21</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyProductDetailsOnPaymentPage()'><b>verifyProductDetailsOnPaymentPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-2034385787" onClick='toggleBox("Output-2034385787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2034385787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2034385787">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+FAIL : Verify my account page title expected [My account - My Store] but found []: ACTUAL :  	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+No such element found with xpathno such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(@id,'category-thumbnail')]//following::li//child::a[text()='Dresses']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.43.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\mir.ali\AppData\Local\Temp\scoped_dir12780_500837861}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50196}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: 7bc309e3a47d57dcced3eb404b397ca7
+*** Element info: {Using=xpath, value=//li[contains(@id,'category-thumbnail')]//following::li//child::a[text()='Dresses']}<br/>
+FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details<br/>
+Unknown error cannot upload screenshot to server : Connection refused: connect<br/>
+Unknown error cannot upload screenshot to server : Connection refused: connect<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [My account - My Store] but found []
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:228)
+	at com.qa.automation.mystoreapplication.pages.HomePage.verifyMyAccountPageTitle(HomePage.java:71)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyProductDetailsOnPaymentPage(TC_000111_PlacingOrderFromMyStoreApp.java:125)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2034385787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2034385787'><pre>java.lang.AssertionError: expected [My account - My Store] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:228)
+	at com.qa.automation.mystoreapplication.pages.HomePage.verifyMyAccountPageTitle(HomePage.java:71)
+	at com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyProductDetailsOnPaymentPage(TC_000111_PlacingOrderFromMyStoreApp.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>48</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.performSignIntoMystore()'><b>performSignIntoMystore</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br>Parameters: testautomation7416@gmail.com, test123<br/>
+<a href="#Output-1847858865" onClick='toggleBox("Output-1847858865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847858865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847858865">
+clicking on sign in link<br/>
+enter the user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation<br/>
+</div>
+</td>
+<td></td>
+<td>94</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyProductDetailsAndCartTextOnAddToCartPage()'><b>verifyProductDetailsAndCartTextOnAddToCartPage</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-1814419210" onClick='toggleBox("Output-1814419210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1814419210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1814419210">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+PASS : Verifying product model name on Product details page : ACTUAL : demo_3 	EXPECTED :demo_3<br/>
+PASS : Verifying the product price on product details page  : ACTUAL : $26.00 	EXPECTED :$26.00<br/>
+updating the item quantity<br/>
+updating the item size<br/>
+click on add to cart button<br/>
+click on continue shopping button<br/>
+PASS : verifying number of products added to cart : ACTUAL : 2 	EXPECTED :2<br/>
+</div>
+</td>
+<td></td>
+<td>297</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyProductDetailsOnShoppingCartSummary()'><b>verifyProductDetailsOnShoppingCartSummary</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp<br/>
+<a href="#Output-1826836206" onClick='toggleBox("Output-1826836206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1826836206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1826836206">
+clicking on sign in link<br/>
+Enter user name<br/>
+enter the password<br/>
+click on sign in button<br/>
+PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store<br/>
+Click on dresses<br/>
+click on casual dresses category<br/>
+selecting the product from casual dress category<br/>
+click on add to cart button<br/>
+click on proceed to checkout button<br/>
+product name verified<br/>
+product unit price verified<br/>
+product total price verified<br/>
+PASS : verifying the total price on shopping cart summry : ACTUAL : $28.00 	EXPECTED :$28.00<br/>
+Shopping cart details have been verified<br/>
+</div>
+</td>
+<td></td>
+<td>267</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyCheckout()'><b>verifyCheckout</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp</td>
+<td></td>
+<td>0</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+<tr>
+<td title='com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp.verifyOrderDetails()'><b>verifyOrderDetails</b><br>Test class: com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp</td>
+<td></td>
+<td>0</td>
+<td>com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@77686e78</td></tr>
+</table><p>
+</body>
+</html>

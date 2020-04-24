@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Suite File -->
+
+<suite name="mystore">
+
+	<test name="Testcase for placing Order from mystore app">
+		<classes>
+			
+			<!-- <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/>  -->
+			<!--   <class name="com.qa.automation.mystoreapplication.testscript.TC_001_SignIntoApplication"/> -->
+			<!-- <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/> -->
+			
+			  <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp"/>
+			<!-- <class name="com.qa.automation.mystoreapplication.testscript.TC_003_AddEveningDress"/> -->
+			
+		</classes>
+	</test>
+
+</suite>
+

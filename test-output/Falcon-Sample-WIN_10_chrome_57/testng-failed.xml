@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_10_chrome_57]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="57"/>
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.NewCustomerRegistration">
+        <methods>
+          <include name="openMyStoreShoppingPage"/>
+          <include name="preSetup"/>
+          <include name="RegisterMember"/>
+        </methods>
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.NewCustomerRegistration -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_chrome_57] -->
