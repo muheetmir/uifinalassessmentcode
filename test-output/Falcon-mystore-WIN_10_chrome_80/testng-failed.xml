@@ -7,14 +7,19 @@
   <parameter name="browserVersion" value="80"/>
   <test name="Testcase for placing Order from mystore app(failed)">
     <classes>
-      <class name="com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp">
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp">
         <methods>
-          <include name="verifyOrderDetails"/>
+          <include name="verifyProductDetailsAndCartTextOnProductDetailsPage"/>
+          <include name="verifyCheckout"/>
           <include name="preSetup"/>
-          <include name="signOutApp"/>
+          <include name="verifyProductDetailsOnPaymentPage"/>
+          <include name="verifyAddressDetailsOnAddresssPage"/>
+          <include name="performSignINAndVerifyProductCategoriesOnHomePage"/>
+          <include name="verifyProductDetailsOnShoppingCartSummary"/>
           <include name="launchApplication"/>
+          <include name="verifyOrderDetails"/>
         </methods>
-      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_0002_PlacingOrderFromMyStoreApp -->
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp -->
     </classes>
   </test> <!-- Testcase for placing Order from mystore app(failed) -->
 </suite> <!-- Failed suite [Falcon-mystore-WIN_10_chrome_80] -->

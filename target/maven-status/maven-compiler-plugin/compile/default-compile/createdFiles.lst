@@ -1,7 +1,6 @@
 com\qa\automation\mystoreapplication\pages\HomePage.class
 com\qa\automation\mystoreapplication\pages\PaymentPage.class
 com\qa\automation\mystoreapplication\pages\SignInPage.class
-com\qa\automation\mystoreapplication\testscript\TC_007_OrderDetails.class
 com\qa\automation\mystoreapplication\testsuite\TestSuiteBase.class
 com\qa\automation\mystoreapplication\config\MyStoreAppConstants.class
 com\qa\automation\mystoreapplication\commonfunctions\SignInApp.class

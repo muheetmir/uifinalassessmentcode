@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
       <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
@@ -31,7 +31,7 @@
   <parameter name="browserVersion" value="10"/>
   <test name="Testcase for placing Order from mystore app">
     <classes>
-      <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp"/>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp"/>
     </classes>
   </test> <!-- Testcase for placing Order from mystore app -->
 </suite> <!-- Falcon-mystore-WIN_10_IE_10 -->
@@ -39,6 +39,354 @@
     </line>
     <line>
       <![CDATA[PASS : Verifying the application title : ACTUAL : My Store 	EXPECTED :My Store]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[enter the user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation]]>
+    </line>
+    <line>
+      <![CDATA[verifying the different product categories on home page]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying product model name on Product details page : ACTUAL : demo_3 	EXPECTED :demo_3]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the product price on product details page  : ACTUAL : $26.00 	EXPECTED :$26.00]]>
+    </line>
+    <line>
+      <![CDATA[updating the item quantity]]>
+    </line>
+    <line>
+      <![CDATA[updating the item size]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on continue shopping button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verifying number of products added to cart : ACTUAL : 2 	EXPECTED :2]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[product name verified]]>
+    </line>
+    <line>
+      <![CDATA[product unit price verified]]>
+    </line>
+    <line>
+      <![CDATA[Product quantity verified]]>
+    </line>
+    <line>
+      <![CDATA[product total price verified]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verifying the total price on shopping cart summry : ACTUAL : $28.00 	EXPECTED :$28.00]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart details have been verified]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the address on address page : ACTUAL : City7416, Florida 32634 	EXPECTED :City7416, Florida 32634]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verfying the customer contact number on addresses page : ACTUAL : 9912993499 	EXPECTED :9912993499]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on continue shopping button]]>
+    </line>
+    <line>
+      <![CDATA[click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on everning dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from everning dress category]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Addresses heading verified]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button on address page]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING]]>
+    </line>
+    <line>
+      <![CDATA[Accept the terms and conditions]]>
+    </line>
+    <line>
+      <![CDATA[click on checkout button]]>
+    </line>
+    <line>
+      <![CDATA[product name verified]]>
+    </line>
+    <line>
+      <![CDATA[unit  price has been verified]]>
+    </line>
+    <line>
+      <![CDATA[Quantity has been verified]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the total price on payment page : ACTUAL : $78.99 	EXPECTED :$78.99]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name]]>
+    </line>
+    <line>
+      <![CDATA[enter the password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on casual dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from casual dress category]]>
+    </line>
+    <line>
+      <![CDATA[updating the item size]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on continue shopping button]]>
+    </line>
+    <line>
+      <![CDATA[click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on everning dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from everning dress category]]>
+    </line>
+    <line>
+      <![CDATA[updating the item size]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on continue shopping button]]>
+    </line>
+    <line>
+      <![CDATA[click on dresses]]>
+    </line>
+    <line>
+      <![CDATA[click on summer dresses category]]>
+    </line>
+    <line>
+      <![CDATA[selecting the product from summary dresses category ]]>
+    </line>
+    <line>
+      <![CDATA[updating the item size]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verifying number of products added to cart : ACTUAL : 3 	EXPECTED :3]]>
+    </line>
+    <line>
+      <![CDATA[Addresses heading verified]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button on address page]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING]]>
+    </line>
+    <line>
+      <![CDATA[Accept the terms and conditions]]>
+    </line>
+    <line>
+      <![CDATA[click on checkout button]]>
+    </line>
+    <line>
+      <![CDATA[clicking on the pay by check link]]>
+    </line>
+    <line>
+      <![CDATA[clicking on the confirm order button]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out]]>
+    </line>
+    <line>
+      <![CDATA[Singout of application]]>
     </line>
     <line>
       <![CDATA[clicking on sign in link]]>
@@ -80,16 +428,16 @@
       <![CDATA[Singout of application]]>
     </line>
   </reporter-output>
-  <suite name="Falcon-mystore-WIN_10_IE_10" duration-ms="39075" started-at="2020-04-24T06:36:51Z" finished-at="2020-04-24T06:37:31Z">
+  <suite name="Falcon-mystore-WIN_10_IE_10" duration-ms="458166" started-at="2020-04-24T07:50:14Z" finished-at="2020-04-24T07:57:52Z">
     <groups>
     </groups>
-    <test name="Testcase for placing Order from mystore app" duration-ms="39075" started-at="2020-04-24T06:36:51Z" finished-at="2020-04-24T06:37:31Z">
-      <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="preSetup" is-config="true" duration-ms="31" started-at="2020-04-24T12:06:51Z" finished-at="2020-04-24T12:06:51Z">
+    <test name="Testcase for placing Order from mystore app" duration-ms="458166" started-at="2020-04-24T07:50:14Z" finished-at="2020-04-24T07:57:52Z">
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="preSetup" is-config="true" duration-ms="30" started-at="2020-04-24T13:20:14Z" finished-at="2020-04-24T13:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="launchApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="launchApplication" is-config="true" duration-ms="11300" started-at="2020-04-24T12:06:51Z" finished-at="2020-04-24T12:07:03Z">
+        <test-method status="PASS" signature="launchApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="launchApplication" is-config="true" duration-ms="48721" started-at="2020-04-24T13:20:14Z" finished-at="2020-04-24T13:21:03Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +466,415 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="verifyOrderDetails()[pri:7, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="verifyOrderDetails" duration-ms="22372" started-at="2020-04-24T12:07:03Z" finished-at="2020-04-24T12:07:25Z">
+        <test-method status="PASS" signature="performSignINAndVerifyProductCategoriesOnHomePage(java.lang.String, java.lang.String)[pri:1, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="performSignINAndVerifyProductCategoriesOnHomePage" duration-ms="51474" started-at="2020-04-24T13:21:03Z" data-provider="testdatasignin" finished-at="2020-04-24T13:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testautomation7416@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[enter the user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verifying user first and last name : ACTUAL : test automation 	EXPECTED :test automation]]>
+            </line>
+            <line>
+              <![CDATA[verifying the different product categories on home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performSignINAndVerifyProductCategoriesOnHomePage -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="26189" started-at="2020-04-24T13:21:55Z" finished-at="2020-04-24T13:22:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyProductDetailsAndCartTextOnProductDetailsPage()[pri:2, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyProductDetailsAndCartTextOnProductDetailsPage" duration-ms="83608" started-at="2020-04-24T13:22:21Z" finished-at="2020-04-24T13:23:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying product model name on Product details page : ACTUAL : demo_3 	EXPECTED :demo_3]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying the product price on product details page  : ACTUAL : $26.00 	EXPECTED :$26.00]]>
+            </line>
+            <line>
+              <![CDATA[updating the item quantity]]>
+            </line>
+            <line>
+              <![CDATA[updating the item size]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on continue shopping button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verifying number of products added to cart : ACTUAL : 2 	EXPECTED :2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsAndCartTextOnProductDetailsPage -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="5019" started-at="2020-04-24T13:23:44Z" finished-at="2020-04-24T13:23:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyProductDetailsOnShoppingCartSummary()[pri:3, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyProductDetailsOnShoppingCartSummary" duration-ms="27966" started-at="2020-04-24T13:23:50Z" finished-at="2020-04-24T13:24:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[product name verified]]>
+            </line>
+            <line>
+              <![CDATA[product unit price verified]]>
+            </line>
+            <line>
+              <![CDATA[Product quantity verified]]>
+            </line>
+            <line>
+              <![CDATA[product total price verified]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verifying the total price on shopping cart summry : ACTUAL : $28.00 	EXPECTED :$28.00]]>
+            </line>
+            <line>
+              <![CDATA[Shopping cart details have been verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsOnShoppingCartSummary -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="3822" started-at="2020-04-24T13:24:17Z" finished-at="2020-04-24T13:24:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyAddressDetailsOnAddresssPage()[pri:4, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyAddressDetailsOnAddresssPage" duration-ms="30879" started-at="2020-04-24T13:24:21Z" finished-at="2020-04-24T13:24:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying the address on address page : ACTUAL : City7416, Florida 32634 	EXPECTED :City7416, Florida 32634]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verfying the customer contact number on addresses page : ACTUAL : 9912993499 	EXPECTED :9912993499]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddressDetailsOnAddresssPage -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="3067" started-at="2020-04-24T13:24:52Z" finished-at="2020-04-24T13:24:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyProductDetailsOnPaymentPage()[pri:5, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyProductDetailsOnPaymentPage" duration-ms="57183" started-at="2020-04-24T13:24:55Z" finished-at="2020-04-24T13:25:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify my account page title : ACTUAL : My account - My Store 	EXPECTED :My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on continue shopping button]]>
+            </line>
+            <line>
+              <![CDATA[click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on everning dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from everning dress category]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Addresses heading verified]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button on address page]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING]]>
+            </line>
+            <line>
+              <![CDATA[Accept the terms and conditions]]>
+            </line>
+            <line>
+              <![CDATA[click on checkout button]]>
+            </line>
+            <line>
+              <![CDATA[product name verified]]>
+            </line>
+            <line>
+              <![CDATA[unit  price has been verified]]>
+            </line>
+            <line>
+              <![CDATA[Quantity has been verified]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying the total price on payment page : ACTUAL : $78.99 	EXPECTED :$78.99]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsOnPaymentPage -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="4292" started-at="2020-04-24T13:25:52Z" finished-at="2020-04-24T13:25:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyCheckout()[pri:6, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyCheckout" duration-ms="85143" started-at="2020-04-24T13:25:57Z" finished-at="2020-04-24T13:27:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name]]>
+            </line>
+            <line>
+              <![CDATA[enter the password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on casual dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from casual dress category]]>
+            </line>
+            <line>
+              <![CDATA[updating the item size]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on continue shopping button]]>
+            </line>
+            <line>
+              <![CDATA[click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on everning dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from everning dress category]]>
+            </line>
+            <line>
+              <![CDATA[updating the item size]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on continue shopping button]]>
+            </line>
+            <line>
+              <![CDATA[click on dresses]]>
+            </line>
+            <line>
+              <![CDATA[click on summer dresses category]]>
+            </line>
+            <line>
+              <![CDATA[selecting the product from summary dresses category ]]>
+            </line>
+            <line>
+              <![CDATA[updating the item size]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verifying number of products added to cart : ACTUAL : 3 	EXPECTED :3]]>
+            </line>
+            <line>
+              <![CDATA[Addresses heading verified]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button on address page]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying shipping page heading : ACTUAL : SHIPPING 	EXPECTED :SHIPPING]]>
+            </line>
+            <line>
+              <![CDATA[Accept the terms and conditions]]>
+            </line>
+            <line>
+              <![CDATA[click on checkout button]]>
+            </line>
+            <line>
+              <![CDATA[clicking on the pay by check link]]>
+            </line>
+            <line>
+              <![CDATA[clicking on the confirm order button]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="5179" started-at="2020-04-24T13:27:22Z" finished-at="2020-04-24T13:27:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on sign out]]>
+            </line>
+            <line>
+              <![CDATA[Singout of application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOutApp -->
+        <test-method status="PASS" signature="verifyOrderDetails()[pri:7, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="verifyOrderDetails" duration-ms="20014" started-at="2020-04-24T13:27:27Z" finished-at="2020-04-24T13:27:47Z">
           <reporter-output>
             <line>
               <![CDATA[clicking on sign in link]]>
@@ -155,7 +911,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyOrderDetails -->
-        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="signOutApp" is-config="true" duration-ms="5379" started-at="2020-04-24T12:07:25Z" finished-at="2020-04-24T12:07:31Z">
+        <test-method status="PASS" signature="signOutApp()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="signOutApp" is-config="true" duration-ms="4924" started-at="2020-04-24T13:27:47Z" finished-at="2020-04-24T13:27:52Z">
           <reporter-output>
             <line>
               <![CDATA[click on sign out]]>
@@ -165,11 +921,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- signOutApp -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp@11ef47f7]" name="teardown" is-config="true" duration-ms="675" started-at="2020-04-24T12:07:31Z" finished-at="2020-04-24T12:07:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp@633d5b26]" name="teardown" is-config="true" duration-ms="156" started-at="2020-04-24T13:27:52Z" finished-at="2020-04-24T13:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp -->
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp -->
     </test> <!-- Testcase for placing Order from mystore app -->
   </suite> <!-- Falcon-mystore-WIN_10_IE_10 -->
 </testng-results>

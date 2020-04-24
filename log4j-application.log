@@ -11316,3 +11316,213 @@ Session ID: 045f514d-8a32-4f03-8395-1e73a2d011bc
 2020-04-24 12:07:25 INFO  HomePage:49 - click on sign out
 2020-04-24 12:07:31 INFO  HomePage:49 - Singout of application
 2020-04-24 12:07:31 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-24 12:59:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 12:59:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 12:59:44 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_10 is: WIN_10_IE_10
+2020-04-24 13:00:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:00:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:00:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_10 is: WIN_10_IE_10
+2020-04-24 13:09:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:09:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:09:52 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-04-24 13:10:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:10:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:10:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [mystore]
+
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-mystore-WIN_10_chrome_80
+2020-04-24 13:12:18 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-mystore-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="Testcase for placing Order from mystore app">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp"/>
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app -->
+</suite> <!-- Falcon-mystore-WIN_10_chrome_80 -->
+
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [mystore]
+
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-mystore-WIN_10_chrome_80
+2020-04-24 13:15:29 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-mystore-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="Testcase for placing Order from mystore app">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp"/>
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app -->
+</suite> <!-- Falcon-mystore-WIN_10_chrome_80 -->
+
+2020-04-24 13:16:58 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-04-24 13:20:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-04-24 13:20:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable mystore is: mystore
+2020-04-24 13:20:13 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_10 is: WIN_10_IE_10
+2020-04-24 13:20:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-04-24 13:20:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [mystore]
+
+2020-04-24 13:20:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-mystore-WIN_10_IE_10
+2020-04-24 13:20:14 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-mystore-WIN_10_IE_10">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="10"/>
+  <test name="Testcase for placing Order from mystore app">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp"/>
+    </classes>
+  </test> <!-- Testcase for placing Order from mystore app -->
+</suite> <!-- Falcon-mystore-WIN_10_IE_10 -->
+
+2020-04-24 13:21:03 INFO  VerificationManager:229 - PASS : Verifying the application title Actual value : My Store is same as Expected value: My Store
+2020-04-24 13:21:03 INFO  SignInPage:49 - clicking on sign in link
+2020-04-24 13:21:27 INFO  SignInPage:49 - enter the user name
+2020-04-24 13:21:29 INFO  SignInPage:49 - enter the password
+2020-04-24 13:21:29 INFO  SignInPage:49 - click on sign in button
+2020-04-24 13:21:54 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : test automation is same as Expected value: test automation
+2020-04-24 13:21:54 INFO  HomePage:49 - verifying the different product categories on home page
+2020-04-24 13:21:55 INFO  HomePage:49 - click on sign out
+2020-04-24 13:22:21 INFO  HomePage:49 - Singout of application
+2020-04-24 13:22:21 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:22:45 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:22:46 INFO  SignInApp:49 - enter the password
+2020-04-24 13:22:47 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:23:11 INFO  VerificationManager:229 - PASS : Verify my account page title Actual value : My account - My Store is same as Expected value: My account - My Store
+2020-04-24 13:23:11 INFO  DressesPage:49 - Click on dresses
+2020-04-24 13:23:27 INFO  DressesPage:49 - click on casual dresses category
+2020-04-24 13:23:32 INFO  DressesPage:49 - selecting the product from casual dress category
+2020-04-24 13:23:36 INFO  VerificationManager:229 - PASS : Verifying product model name on Product details page Actual value : demo_3 is same as Expected value: demo_3
+2020-04-24 13:23:36 INFO  VerificationManager:229 - PASS : Verifying the product price on product details page  Actual value : $26.00 is same as Expected value: $26.00
+2020-04-24 13:23:36 INFO  ProductDetailsPage:49 - updating the item quantity
+2020-04-24 13:23:37 INFO  ProductDetailsPage:49 - updating the item size
+2020-04-24 13:23:38 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:23:39 INFO  ProductDetailsPage:49 - click on continue shopping button
+2020-04-24 13:23:44 INFO  VerificationManager:229 - PASS : verifying number of products added to cart Actual value : 2 is same as Expected value: 2
+2020-04-24 13:23:44 INFO  HomePage:49 - click on sign out
+2020-04-24 13:23:50 INFO  HomePage:49 - Singout of application
+2020-04-24 13:23:50 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:23:54 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:23:55 INFO  SignInApp:49 - enter the password
+2020-04-24 13:23:56 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:24:00 INFO  VerificationManager:229 - PASS : Verify my account page title Actual value : My account - My Store is same as Expected value: My account - My Store
+2020-04-24 13:24:00 INFO  DressesPage:49 - Click on dresses
+2020-04-24 13:24:03 INFO  DressesPage:49 - click on casual dresses category
+2020-04-24 13:24:08 INFO  DressesPage:49 - selecting the product from casual dress category
+2020-04-24 13:24:12 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:24:13 INFO  ProductDetailsPage:49 - click on proceed to checkout button
+2020-04-24 13:24:14 INFO  ShoppingCartCheckoutPage:49 - product name verified
+2020-04-24 13:24:15 INFO  ShoppingCartCheckoutPage:49 - product unit price verified
+2020-04-24 13:24:15 INFO  ShoppingCartCheckoutPage:49 - Product quantity verified
+2020-04-24 13:24:16 INFO  ShoppingCartCheckoutPage:49 - product total price verified
+2020-04-24 13:24:17 INFO  VerificationManager:229 - PASS : verifying the total price on shopping cart summry Actual value : $28.00 is same as Expected value: $28.00
+2020-04-24 13:24:17 INFO  ShoppingCartCheckoutPage:49 - Shopping cart details have been verified
+2020-04-24 13:24:17 INFO  HomePage:49 - click on sign out
+2020-04-24 13:24:21 INFO  HomePage:49 - Singout of application
+2020-04-24 13:24:21 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:24:25 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:24:26 INFO  SignInApp:49 - enter the password
+2020-04-24 13:24:27 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:24:30 INFO  VerificationManager:229 - PASS : Verify my account page title Actual value : My account - My Store is same as Expected value: My account - My Store
+2020-04-24 13:24:30 INFO  DressesPage:49 - Click on dresses
+2020-04-24 13:24:34 INFO  DressesPage:49 - click on casual dresses category
+2020-04-24 13:24:39 INFO  DressesPage:49 - selecting the product from casual dress category
+2020-04-24 13:24:42 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:24:43 INFO  ProductDetailsPage:49 - click on proceed to checkout button
+2020-04-24 13:24:52 INFO  VerificationManager:229 - PASS : Verifying the address on address page Actual value : City7416, Florida 32634 is same as Expected value: City7416, Florida 32634
+2020-04-24 13:24:52 INFO  VerificationManager:229 - PASS : Verfying the customer contact number on addresses page Actual value : 9912993499 is same as Expected value: 9912993499
+2020-04-24 13:24:52 INFO  HomePage:49 - click on sign out
+2020-04-24 13:24:55 INFO  HomePage:49 - Singout of application
+2020-04-24 13:24:55 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:24:59 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:25:00 INFO  SignInApp:49 - enter the password
+2020-04-24 13:25:01 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:25:04 INFO  VerificationManager:229 - PASS : Verify my account page title Actual value : My account - My Store is same as Expected value: My account - My Store
+2020-04-24 13:25:04 INFO  DressesPage:49 - Click on dresses
+2020-04-24 13:25:08 INFO  DressesPage:49 - click on casual dresses category
+2020-04-24 13:25:13 INFO  DressesPage:49 - selecting the product from casual dress category
+2020-04-24 13:25:17 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:25:18 INFO  ProductDetailsPage:49 - click on continue shopping button
+2020-04-24 13:25:21 INFO  DressesPage:49 - click on dresses
+2020-04-24 13:25:25 INFO  DressesPage:49 - click on everning dresses category
+2020-04-24 13:25:29 INFO  DressesPage:49 - selecting the product from everning dress category
+2020-04-24 13:25:33 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:25:34 INFO  ProductDetailsPage:49 - click on proceed to checkout button
+2020-04-24 13:25:43 INFO  AddressCheckoutPage:49 - Addresses heading verified
+2020-04-24 13:25:43 INFO  AddressCheckoutPage:49 - click on proceed to checkout button on address page
+2020-04-24 13:25:46 INFO  VerificationManager:229 - PASS : Verifying shipping page heading Actual value : SHIPPING is same as Expected value: SHIPPING
+2020-04-24 13:25:46 INFO  ShippingCheckoutPage:49 - Accept the terms and conditions
+2020-04-24 13:25:47 INFO  ShippingCheckoutPage:49 - click on checkout button
+2020-04-24 13:25:51 INFO  PaymentPage:49 - product name verified
+2020-04-24 13:25:52 INFO  PaymentPage:49 - unit  price has been verified
+2020-04-24 13:25:52 INFO  PaymentPage:49 - Quantity has been verified
+2020-04-24 13:25:52 INFO  VerificationManager:229 - PASS : Verifying the total price on payment page Actual value : $78.99 is same as Expected value: $78.99
+2020-04-24 13:25:52 INFO  HomePage:49 - click on sign out
+2020-04-24 13:25:57 INFO  HomePage:49 - Singout of application
+2020-04-24 13:25:57 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:26:00 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:26:01 INFO  SignInApp:49 - enter the password
+2020-04-24 13:26:02 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:26:05 INFO  DressesPage:49 - Click on dresses
+2020-04-24 13:26:09 INFO  DressesPage:49 - click on casual dresses category
+2020-04-24 13:26:13 INFO  DressesPage:49 - selecting the product from casual dress category
+2020-04-24 13:26:18 INFO  ProductDetailsPage:49 - updating the item size
+2020-04-24 13:26:19 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:26:20 INFO  ProductDetailsPage:49 - click on continue shopping button
+2020-04-24 13:26:22 INFO  DressesPage:49 - click on dresses
+2020-04-24 13:26:26 INFO  DressesPage:49 - click on everning dresses category
+2020-04-24 13:26:31 INFO  DressesPage:49 - selecting the product from everning dress category
+2020-04-24 13:26:34 INFO  ProductDetailsPage:49 - updating the item size
+2020-04-24 13:26:36 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:26:36 INFO  ProductDetailsPage:49 - click on continue shopping button
+2020-04-24 13:26:38 INFO  DressesPage:49 - click on dresses
+2020-04-24 13:26:42 INFO  DressesPage:49 - click on summer dresses category
+2020-04-24 13:26:47 INFO  DressesPage:49 - selecting the product from summary dresses category 
+2020-04-24 13:26:51 INFO  ProductDetailsPage:49 - updating the item size
+2020-04-24 13:26:52 INFO  ProductDetailsPage:49 - click on add to cart button
+2020-04-24 13:26:53 INFO  ProductDetailsPage:49 - click on proceed to checkout button
+2020-04-24 13:26:57 INFO  VerificationManager:229 - PASS : verifying number of products added to cart Actual value : 3 is same as Expected value: 3
+2020-04-24 13:27:05 INFO  AddressCheckoutPage:49 - Addresses heading verified
+2020-04-24 13:27:05 INFO  AddressCheckoutPage:49 - click on proceed to checkout button on address page
+2020-04-24 13:27:09 INFO  VerificationManager:229 - PASS : Verifying shipping page heading Actual value : SHIPPING is same as Expected value: SHIPPING
+2020-04-24 13:27:09 INFO  ShippingCheckoutPage:49 - Accept the terms and conditions
+2020-04-24 13:27:10 INFO  ShippingCheckoutPage:49 - click on checkout button
+2020-04-24 13:27:14 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-04-24 13:27:16 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-04-24 13:27:20 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-04-24 13:27:22 INFO  HomePage:49 - click on sign out
+2020-04-24 13:27:27 INFO  HomePage:49 - Singout of application
+2020-04-24 13:27:27 INFO  SignInApp:49 - clicking on sign in link
+2020-04-24 13:27:31 INFO  SignInApp:49 - Enter user name
+2020-04-24 13:27:32 INFO  SignInApp:49 - enter the password
+2020-04-24 13:27:33 INFO  SignInApp:49 - click on sign in button
+2020-04-24 13:27:37 INFO  HomePage:49 - click on user name link
+2020-04-24 13:27:39 INFO  OrderDetailsPage:49 - clicking on sign in link
+2020-04-24 13:27:42 INFO  OrderDetailsPage:49 - clicked on reference link
+2020-04-24 13:27:42 INFO  OrderDetailsPage:49 - product model name verified on order details
+2020-04-24 13:27:43 INFO  OrderDetailsPage:49 - product quantity verified on order details
+2020-04-24 13:27:44 INFO  OrderDetailsPage:49 - product price verified on order details
+2020-04-24 13:27:45 INFO  OrderDetailsPage:49 - the product detail has been verified successfully
+2020-04-24 13:27:47 INFO  HomePage:49 - click on sign out
+2020-04-24 13:27:52 INFO  HomePage:49 - Singout of application
+2020-04-24 13:27:52 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false

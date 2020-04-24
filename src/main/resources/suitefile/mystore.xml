@@ -7,12 +7,8 @@
 	<test name="Testcase for placing Order from mystore app">
 		<classes>
 			
-			<!-- <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/>  -->
-			<!--   <class name="com.qa.automation.mystoreapplication.testscript.TC_001_SignIntoApplication"/> -->
-			<!-- <class name="com.qa.automation.mystoreapplication.testscript.MyStoreOrder"/> -->
+			  <class name="com.qa.automation.mystoreapplication.testscript.TC_0001_PlacingOrderFromMyStoreApp"/>
 			
-			  <class name="com.qa.automation.mystoreapplication.testscript.TC_000111_PlacingOrderFromMyStoreApp"/>
-			<!-- <class name="com.qa.automation.mystoreapplication.testscript.TC_003_AddEveningDress"/> -->
 			
 		</classes>
 	</test>
